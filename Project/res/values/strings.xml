@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, INC!</string>
+    <string name="app_name">INC</string>
+	<string name="enter_map">Enter Map</string>
+	<string name="search">Search</string>	
+	<string name="show_schedule">Show Schedule</string>
+	<string name="rate">Rate A Project</string>
+	<string name="contact">Contact INC</string>
+	<string name="about">About Us</string>
+	<string name="exit">Exit</string>
+	
+	<string-array name="home_options">	
+        <item>Enter Map</item>
+        <item>Search</item>
+        <item>Show Schedule</item>
+        <item>Rate Project</item>
+        <item>Settings</item>
+        <item>Contacts</item>
+        <item>About Us</item>
+        <item>Exit</item>
+    </string-array>
+	
+</resources>

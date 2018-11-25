@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:id="@+id/relativelayout"
+    >  
+ 
+    <TextView   
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textSize="22sp"
+        android:id="@+id/txt"/> 
+ 
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"
+        android:layout_centerInParent="true"/>  
+        
+        
+        
+            <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="35dp"
+  android:orientation="horizontal"
+  android:background="@drawable/black_gradient"
+  android:layout_gravity="bottom|center"
+  android:id="@+id/bottom"
+    android:layout_alignParentBottom="true"
+  
+  >
+  	<ImageButton
+        android:id="@+id/btn_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="Cancel"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:background="@drawable/dark_black_gradient"
+        android:src="@drawable/ic_menu_home"      
+        />
+  	<ImageButton
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="Rate It!"
+        android:layout_weight="1"
+        android:background="@drawable/dark_black_gradient"
+        android:src="@drawable/ic_menu_favorite"
+        />
+        
+    
+    <ImageButton
+        android:id="@+id/btn_"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|center"
+        android:text="Cancel"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:background="@drawable/dark_black_gradient"
+        android:src="@drawable/ic_menu_back"      
+        />
+      
+	</LinearLayout>        
+ 
+</RelativeLayout>

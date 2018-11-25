@@ -1,0 +1,75 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  	>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:layout_gravity="center"
+    >
+    <ScrollView
+        android:id="@+id/list1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="50dp"
+        >
+        <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+  
+  <TextView
+  	android:id="@+id/about"
+  	android:layout_height="match_parent"
+  	android:layout_width="fill_parent"
+  	android:text="The Comments of Project comes here!!"
+  	android:textSize="55sp"
+  	android:layout_weight="1"
+  	android:textColor="@color/black"
+  />
+  
+    <RatingBar android:id="@+id/RatingBar01" android:layout_width="wrap_content" android:layout_height="wrap_content"></RatingBar>
+</LinearLayout></ScrollView>
+    
+</FrameLayout>
+    
+    <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="50dp"
+  android:orientation="horizontal"
+  android:background="@drawable/black_gradient"
+  android:layout_gravity="bottom|center"
+  android:id="@+id/bottom"
+  android:layout_alignParentBottom="true"
+  >
+  	<ImageButton
+        android:id="@+id/btn_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:background="@drawable/dark_black_gradient"
+        android:src="@drawable/ic_menu_home"      
+        />
+    <ImageButton
+        android:id="@+id/btn_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:background="@drawable/dark_black_gradient"
+        android:src="@drawable/ic_menu_back"      
+        />
+      
+	</LinearLayout>
+
+
+</RelativeLayout>

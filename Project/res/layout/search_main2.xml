@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/trytab"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:orientation="horizontal" android:layout_height="60dip"
+  android:background="@drawable/gradient2">
+
+	<Button
+        android:id="@+id/btndomain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="Domain"
+        android:layout_weight="1"
+        android:enabled="false"              
+        />
+    <Button
+        android:id="@+id/btnid"
+        android:text="Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_weight="1"             
+        />
+     <Button
+        android:id="@+id/btntitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"        
+        android:layout_weight="1"
+        android:text="Title"             
+        />
+</LinearLayout>
+
+<LinearLayout
+  android:layout_width="fill_parent"
+  android:orientation="horizontal" android:layout_height="wrap_content"
+  android:background="@drawable/gradient2">
+
+	<TextView
+        android:id="@+id/domainname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_weight="1"  
+        android:textSize="15sp" 
+        android:textColor="@color/black"                   
+        />
+</LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/snow"
+        android:dividerHeight="1dp"
+        
+        />
+        
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="background">#3500ffff</color>
+<color name="home_top">#ff8c00</color>
+<color name="white">#ffffff</color>
+<color name="black">#000000</color>
+<color name="bk">@drawable/gradient3</color>
+<color name="snow">#cdc9c9</color>
+<color name="blue_inc">#7faacaFF</color>
+
+</resources>
